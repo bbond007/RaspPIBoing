@@ -204,6 +204,7 @@ static void redraw_scene_common(BOING_STATE_T *state)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
+    glScalef(1, -1, 1);
     //glRotatef(180, 0.0f, 0.0f, 0.0f);
     glTranslatef(0.f, 0.f, -BOING_RADIUS * 6.5);
     glDisableClientState( GL_VERTEX_ARRAY );
