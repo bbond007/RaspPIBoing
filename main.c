@@ -387,7 +387,7 @@ int main (int argc, char **argv)
             if(strcmp(argv[i], "hdmi") == 0 || strcmp(argv[i], "HDMI") == 0)
                 iSoundDeviceNo = 1;
 
-            if(strcmp(argv[i], "none") == 0 || strcmp(argv[i], "none") == 0)
+            if(strcmp(argv[i], "none") == 0 || strcmp(argv[i], "NONE") == 0)
                 iSoundDeviceNo = -1;
 
             if(strcmp(argv[i], "x") == 0 || strcmp(argv[i], "X") == 0)
@@ -438,7 +438,6 @@ int main (int argc, char **argv)
 
     if (iSoundDeviceNo != -1)
         load_sample(&asiBoing, (uint8_t *) soundraw_data, soundraw_size, 8000, 16, 1, iSoundDeviceNo);
-
 
     /* GRRRRRRRRRRRRRRRR! XGetImage
     Error of failed request:  BadMatch (invalid parameter attributes)
@@ -493,4 +492,3 @@ int main (int argc, char **argv)
 
     return 0;
 }
-
