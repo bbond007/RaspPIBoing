@@ -19,9 +19,12 @@ none (no sound)
 
 the xwindows rendering is done via this technique described here:
 
-viewtopic.php?f=63&t=6488
+http://www.raspberrypi.org/phpBB3/viewtopic.php?f=63&t=6488
 
 this was the original project that which which I used parts of.
 
 http://www.jimbrooks.org/web/opengl/boing/
 
+bbond007
+
+....
